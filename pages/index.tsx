@@ -106,7 +106,7 @@ const Home: NextPage = () => {
         <button
           className={classNames(
             spaceGrotesk.className,
-            "text-white rounded-xl px-5 py-2 m-5 text-xl font-bold hover:opacity-70 transition-all duration-300 disabled:opacity-50"
+            "text-red rounded-xl px-5 py-2 m-5 text-xl font-bold hover:opacity-70 transition-all duration-300 disabled:opacity-50"
           )}
           style={{ background: client.appThemeColor }}
           disabled={receiving}
