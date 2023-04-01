@@ -89,7 +89,7 @@ const Home: NextPage = () => {
           </span>
         </h1>
 
-        <p className="mt-3 max-w-lg opacity-70">{client.appSummary}</p>
+        <h1 className="mt-3 max-w-lg opacity-70">{client.appSummary}</h1>
 
         <Card className="p-0 overflow-hidden mt-10 w-full h-36 max-w-lg bg-blue-100/20">
           <textarea
